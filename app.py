@@ -1,11 +1,8 @@
 import flask
 from flask import jsonify
-from numpy.random import rand
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
-from pprint import pprint
-import random
-import numpy as np
+
 
 
 app = flask.Flask(__name__)
